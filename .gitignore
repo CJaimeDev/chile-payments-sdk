@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Kotlin/Gradle
+kotlin/.gradle/
+kotlin/build/
+kotlin/*/build/
+kotlin/examples/build/
+kotlin/.idea/
+kotlin/*.iml
+kotlin/*.iws
+kotlin/*.ipr
+kotlin/out/
+kotlin/local.properties
+
+# Gradle Wrapper (OPCIONAL: comentar si quieres incluirlo)
+# kotlin/gradle/
+# kotlin/gradlew
+# kotlin/gradlew.bat
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tmp
+*.temp

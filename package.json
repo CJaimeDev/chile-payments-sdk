@@ -1,0 +1,43 @@
+{
+  "name": "chile-payments-sdk",
+  "version": "1.0.0",
+  "description": "SDK unificado para integrar pasarelas de pago chilenas (Webpay y Getnet)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "example:webpay": "ts-node examples/webpay-example.ts",
+    "example:getnet": "ts-node examples/getnet-example.ts",
+    "example:comparison": "ts-node examples/comparison-example.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "chile",
+    "payments",
+    "webpay",
+    "getnet",
+    "transbank",
+    "sdk",
+    "pasarela",
+    "pagos"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.0.7",
+    "@types/open": "^6.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "open": "^11.0.0"
+  }
+}

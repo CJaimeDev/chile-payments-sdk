@@ -17,7 +17,7 @@ kotlin/*.ipr
 kotlin/out/
 kotlin/local.properties
 
-# Gradle Wrapper (OPCIONAL: comentar si quieres incluirlo)
+# Gradle Wrapper
 # kotlin/gradle/
 # kotlin/gradlew
 # kotlin/gradlew.bat
